@@ -19,7 +19,7 @@ public class NumberTest {
         assertEquals(true, num.isEven(0));
         assertEquals(false, num.isEven(0.5));
         assertEquals(false, num.isEven(1));
-        assertEquals(true, num.isEven(2));
-        assertEquals(true, num.isEven(-4));
+        assertEquals(true, num.isEven(10));
+        assertEquals(true, num.isEven(-6));
     }
 }
